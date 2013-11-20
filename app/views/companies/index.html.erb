@@ -1,0 +1,6 @@
+<%= form_tag "/", method: "GET" do %>
+	<%= text_field_tag :q, params[:q] %>
+	<%= submit_tag "search for company" %>
+<% end %>
+
+<%= render partial: 'list' unless @company.nil? %> <!-- don't let the code below happen unless there is a company	 -->

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyText
+  phone_number: MyText
+  total_money_raised: MyText
+
+two:
+  name: MyText
+  phone_number: MyText
+  total_money_raised: MyText
